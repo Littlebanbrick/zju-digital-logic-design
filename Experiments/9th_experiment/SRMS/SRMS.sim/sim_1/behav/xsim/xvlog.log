@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/main/verilog/gates/NAND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/main/verilog/circuit/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/SRMS.srcs/sim_1/new/main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MasterSlave_flipFlop_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/SRMS.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

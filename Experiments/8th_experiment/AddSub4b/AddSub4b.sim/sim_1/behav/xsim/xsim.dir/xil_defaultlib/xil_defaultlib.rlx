@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b.srcs/sim_1/new/AddSub4b_tb.v,1776862590,verilog,,,,AddSub4b_tb,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/AddSub4b.v,1776862013,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/Adder1b.v,,AddSub4b,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/Adder1b.v,1776862013,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v,,Adder1b,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/AND_GATE.v,1776862013,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/AddSub4b.v,,AND_GATE,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v,1776862013,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v,,XOR_GATE_3_INPUTS_ONEHOT,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v,1776862013,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b.srcs/sim_1/new/AddSub4b_tb.v,,XOR_GATE_ONEHOT,,,,,,,,

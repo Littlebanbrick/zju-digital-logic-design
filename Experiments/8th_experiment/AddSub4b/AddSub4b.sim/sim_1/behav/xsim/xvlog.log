@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/AddSub4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddSub4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/circuit/Adder1b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_3_INPUTS_ONEHOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_ONEHOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b.srcs/sim_1/new/AddSub4b_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddSub4b_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/AddSub4b/AddSub4b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

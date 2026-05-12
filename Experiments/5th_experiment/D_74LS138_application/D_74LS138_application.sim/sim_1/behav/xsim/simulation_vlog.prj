@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../D_74LS138_verilog/application/verilog/gates/AND_GATE.v" \
+"../../../../../D_74LS138_verilog/application/verilog/circuit/D_74LS138.v" \
+"../../../../../D_74LS138_verilog/application/verilog/gates/NAND_GATE_3_INPUTS.v" \
+"../../../../../D_74LS138_verilog/application/verilog/gates/NAND_GATE_6_INPUTS.v" \
+"../../../../../D_74LS138_verilog/application/verilog/gates/NOR_GATE_3_INPUTS.v" \
+"../../../../../D_74LS138_verilog/application/verilog/circuit/application.v" \
+"../../../../D_74LS138_application.srcs/sim_1/new/simulation.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

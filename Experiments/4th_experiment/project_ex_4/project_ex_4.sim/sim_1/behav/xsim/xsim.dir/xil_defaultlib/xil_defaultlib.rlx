@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/circuit/main.v,1774504386,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/project_ex_4/project_ex_4.srcs/sim_1/new/ex4_tb.v,,main,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/gates/AND_GATE.v,1774504386,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/gates/OR_GATE.v,,AND_GATE,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/gates/OR_GATE.v,1774504386,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/gates/XOR_GATE_ONEHOT.v,,OR_GATE,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/gates/XOR_GATE_ONEHOT.v,1774504386,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/Ex_4/main/verilog/circuit/main.v,,XOR_GATE_ONEHOT,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/project_ex_4/project_ex_4.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/4th_experiment/project_ex_4/project_ex_4.srcs/sim_1/new/ex4_tb.v,1774505137,verilog,,,,ex4_tb,,,,,,,,

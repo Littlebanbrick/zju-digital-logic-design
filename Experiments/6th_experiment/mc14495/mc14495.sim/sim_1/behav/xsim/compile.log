@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/6th_experiment/mc14495.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyMC14495
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/6th_experiment/mc14495_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyMC14495_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/6th_experiment/mc14495/mc14495.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

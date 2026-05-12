@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../main/verilog/gates/NAND_GATE.v" \
+"../../../../main/verilog/gates/NAND_GATE_3_INPUTS.v" \
+"../../../../main/verilog/circuit/main.v" \
+"../../../../DMS.srcs/sim_1/new/main_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

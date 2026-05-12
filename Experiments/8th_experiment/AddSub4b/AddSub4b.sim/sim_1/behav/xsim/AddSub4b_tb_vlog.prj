@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AddSub4b/verilog/gates/AND_GATE.v" \
+"../../../../AddSub4b/verilog/circuit/AddSub4b.v" \
+"../../../../AddSub4b/verilog/circuit/Adder1b.v" \
+"../../../../AddSub4b/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v" \
+"../../../../AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v" \
+"../../../../AddSub4b.srcs/sim_1/new/AddSub4b_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.srcs/sim_1/new/simulation.v,1775113706,verilog,,,,simulation,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/circuit/D_74LS138.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NAND_GATE_3_INPUTS.v,,D_74LS138,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/circuit/application.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.srcs/sim_1/new/simulation.v,,application,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/AND_GATE.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/circuit/D_74LS138.v,,AND_GATE,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NAND_GATE_3_INPUTS.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NAND_GATE_6_INPUTS.v,,NAND_GATE_3_INPUTS,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NAND_GATE_6_INPUTS.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NOR_GATE_3_INPUTS.v,,NAND_GATE_6_INPUTS,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/gates/NOR_GATE_3_INPUTS.v,1775113296,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_verilog/application/verilog/circuit/application.v,,NOR_GATE_3_INPUTS,,,,,,,,

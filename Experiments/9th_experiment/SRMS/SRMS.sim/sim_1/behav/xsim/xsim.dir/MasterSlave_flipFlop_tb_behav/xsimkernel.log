@@ -1,0 +1,7 @@
+Running: xsim.dir/MasterSlave_flipFlop_tb_behav/xsimk.exe -simmode gui -wdb MasterSlave_flipFlop_tb_behav.wdb -simrunnum 0 -socket 51698
+Design successfully loaded
+Design Loading Memory Usage: 9048 KB (Peak: 9048 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 17664 KB (Peak: 17664 KB)
+Simulation CPU Usage: 10671 ms

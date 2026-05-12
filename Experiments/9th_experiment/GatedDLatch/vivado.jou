@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May  7 15:29:07 2026
+# Process ID: 13256
+# Current directory: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28776 C:\Users\Littlebanbrick\Desktop\DLD\Experiments\9th_experiment\GatedDLatch\GatedDLatch.xpr
+# Log file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/vivado.log
+# Journal file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/GatedDLatch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source GatedDLatch_tb.tcl
+close_sim

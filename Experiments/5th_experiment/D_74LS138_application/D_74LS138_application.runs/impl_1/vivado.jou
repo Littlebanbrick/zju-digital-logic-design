@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr  2 15:20:41 2026
+# Process ID: 32408
+# Current directory: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.runs/impl_1
+# Command line: vivado.exe -log application.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source application.tcl -notrace
+# Log file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.runs/impl_1/application.vdi
+# Journal file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/5th_experiment/D_74LS138_application/D_74LS138_application.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source application.tcl -notrace

@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU/verilog/circuit/ALU.v" \
+"../../../../ALU/verilog/gates/AND_GATE.v" \
+"../../../../ALU/verilog/circuit/AddSub4b.v" \
+"../../../../ALU/verilog/circuit/Adder1b.v" \
+"../../../../ALU/verilog/circuit/And2b4.v" \
+"../../../../ALU/verilog/circuit/Mux4to1.v" \
+"../../../../ALU/verilog/circuit/Mux4to1b4.v" \
+"../../../../ALU/verilog/gates/OR_GATE.v" \
+"../../../../ALU/verilog/gates/OR_GATE_4_INPUTS.v" \
+"../../../../ALU/verilog/circuit/Or2b4.v" \
+"../../../../ALU/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v" \
+"../../../../ALU/verilog/gates/XOR_GATE_ONEHOT.v" \
+"../../../../ALU.srcs/sim_1/new/ALU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

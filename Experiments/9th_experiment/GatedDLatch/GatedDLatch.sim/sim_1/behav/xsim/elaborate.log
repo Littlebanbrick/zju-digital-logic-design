@@ -1,0 +1,25 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto bb098367e6604fe48a1c24e49adf45f0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot GatedDLatch_tb_behav xil_defaultlib.GatedDLatch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/circuit/GatedDLatch.v" Line 9. Module GatedDLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/circuit/GatedDLatch.v" Line 9. Module GatedDLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/GatedDLatch/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NAND_GATE(BubblesMask=65'b0)
+Compiling module xil_defaultlib.GatedDLatch
+Compiling module xil_defaultlib.GatedDLatch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot GatedDLatch_tb_behav

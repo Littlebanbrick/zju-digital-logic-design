@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/AddSub4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddSub4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/Adder1b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/And2b4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module And2b4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/Mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/Mux4to1b4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4to1b4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/gates/OR_GATE_4_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_4_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/circuit/Or2b4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Or2b4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/gates/XOR_GATE_3_INPUTS_ONEHOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_3_INPUTS_ONEHOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU/verilog/gates/XOR_GATE_ONEHOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_ONEHOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/8th_experiment/ALU/ALU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

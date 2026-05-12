@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/SRMS.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/SRMS.srcs/sim_1/new/main_tb.v,1778135792,verilog,,,,MasterSlave_flipFlop_tb,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/main/verilog/circuit/main.v,1778135685,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/SRMS.srcs/sim_1/new/main_tb.v,,main,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/main/verilog/gates/NAND_GATE.v,1778135685,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/SRMS/main/verilog/circuit/main.v,,NAND_GATE,,,,,,,,

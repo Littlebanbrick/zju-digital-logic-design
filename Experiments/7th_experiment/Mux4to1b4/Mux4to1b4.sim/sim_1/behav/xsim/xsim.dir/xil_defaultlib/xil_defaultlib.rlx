@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/Mux4to1b4.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/Mux4to1b4.srcs/sim_1/new/Mux4to1b4_tb.v,1776262315,verilog,,,,Mux4to1b4_tb,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/main/verilog/circuit/main.v,1776262332,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/Mux4to1b4.srcs/sim_1/new/Mux4to1b4_tb.v,,Mux4to1b4,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/main/verilog/gates/AND_GATE.v,1776261534,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/main/verilog/gates/OR_GATE_4_INPUTS.v,,AND_GATE,,,,,,,,
+C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/main/verilog/gates/OR_GATE_4_INPUTS.v,1776261534,verilog,,C:/Users/Littlebanbrick/Desktop/DLD/Experiments/7th_experiment/Mux4to1b4/main/verilog/circuit/main.v,,OR_GATE_4_INPUTS,,,,,,,,

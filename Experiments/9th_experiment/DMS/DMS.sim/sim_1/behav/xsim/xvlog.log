@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/DMS/main/verilog/gates/NAND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/DMS/main/verilog/gates/NAND_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/DMS/main/verilog/circuit/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/DMS/DMS.srcs/sim_1/new/main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EdgeTriggered_flipFlop_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/9th_experiment/DMS/DMS.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

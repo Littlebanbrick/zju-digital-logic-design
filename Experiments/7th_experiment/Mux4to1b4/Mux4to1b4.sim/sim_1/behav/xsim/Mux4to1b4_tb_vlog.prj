@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../main/verilog/gates/AND_GATE.v" \
+"../../../../main/verilog/gates/OR_GATE_4_INPUTS.v" \
+"../../../../main/verilog/circuit/main.v" \
+"../../../../Mux4to1b4.srcs/sim_1/new/Mux4to1b4_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
