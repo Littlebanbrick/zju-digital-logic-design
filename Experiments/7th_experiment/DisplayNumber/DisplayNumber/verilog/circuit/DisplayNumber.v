@@ -6,7 +6,7 @@
  **                                                                          **
  *****************************************************************************/
 
-module DisplayNumber( AN,
+module DispNum( AN,
                       LEs,
                       SEGMENT,
                       clk,

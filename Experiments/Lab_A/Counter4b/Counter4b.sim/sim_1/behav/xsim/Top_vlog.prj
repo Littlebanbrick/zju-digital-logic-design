@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Counter4b/verilog/circuit/Counter4b.v" \
+"../../../../../DispNum.v" \
+"../../../../Counter4b/verilog/circuit/FD.v" \
+"../../../../Counter4b/verilog/gates/NOR_GATE.v" \
+"../../../../Counter4b/verilog/gates/NOR_GATE_3_INPUTS.v" \
+"../../../../Counter4b/verilog/gates/NOR_GATE_4_INPUTS.v" \
+"../../../../Counter4b/verilog/gates/XOR_GATE_ONEHOT.v" \
+"../../../../Counter4b.srcs/sources_1/new/clk_1s.v" \
+"../../../../../mc14495.v" \
+"../../../../Counter4b.srcs/sources_1/new/Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+After reset: cnt = 0001, Rc = 0
+After 20 inc cycles: cnt = 0015, Rc = 0
+After 5 dec cycles: cnt = 0010, Rc = 0
+cnt=0, s=1 -> cnt = ffff, Rc = 0
+After dec from 0: cnt = fffe, Rc = 0
+cnt=FFFF, s=0 -> cnt = fffe, Rc = 0
+After inc from FFFF: cnt = ffff, Rc = 1
+After direction change: cnt = 0000, Rc = 1
+$finish called at time : 430 ns : File "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_A/RevCounter/RevCounter.srcs/sim_1/new/RevCounter_tb.v" Line 75
