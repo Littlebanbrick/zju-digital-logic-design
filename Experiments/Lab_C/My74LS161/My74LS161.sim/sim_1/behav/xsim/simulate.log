@@ -1,0 +1,36 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Time=                6000: Q=0, CO=0
+Time=               16000: Q=0, CO=0
+Time=               26000: Q=0, CO=0
+After async clear: Q = 0, CO = 0
+Time=               36000: Q=5, CO=0
+Time=               46000: Q=5, CO=0
+After load: Q = 5, CO = 0
+Time=               56000: Q=6, CO=0
+Time=               66000: Q=7, CO=0
+Time=               76000: Q=8, CO=0
+Time=               86000: Q=9, CO=0
+Time=               96000: Q=a, CO=0
+Time=              106000: Q=b, CO=0
+After 6 counts from 5: Q = b, CO = 0
+Time=              116000: Q=b, CO=0
+Time=              126000: Q=b, CO=0
+Time=              136000: Q=b, CO=0
+After hold (CTT=0): Q = b, CO = 0
+Time=              146000: Q=c, CO=0
+Time=              156000: Q=d, CO=0
+Time=              166000: Q=e, CO=0
+Time=              176000: Q=f, CO=1
+Time=              186000: Q=0, CO=0
+Time=              196000: Q=1, CO=0
+Time=              206000: Q=2, CO=0
+After rolling over: Q = 2, CO = 0
+Time=              216000: Q=0, CO=0
+Time=              226000: Q=f, CO=1
+Time=              236000: Q=0, CO=0
+At Q=F: Q = 0, CO = 0 (should be 1)
+Mid-cycle clear: Q = 0 (should be 0)
+Time=              246000: Q=1, CO=0
+After clear release: Q = 1
+$finish called at time : 250 ns : File "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_C/My74LS161/tb_My74LS161.v" Line 93

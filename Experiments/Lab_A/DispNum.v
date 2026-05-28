@@ -1,4 +1,4 @@
-module DispNum(
+module DisplayNumber(
     input  wire [1:0] BTN,      // 两个按钮：BTN[0]接LE，BTN[1]接point
     input  wire [7:0] SW,       // 8个开关：低4位数字，高4位AN控制
     output wire [7:0] SEGMENT,  // 数码管段选（含小数点）

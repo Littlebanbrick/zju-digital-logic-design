@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_C/My74LS161/My74LS161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My74LS161
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_C/My74LS161/tb_My74LS161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_My74LS161
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_C/My74LS161/My74LS161.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
