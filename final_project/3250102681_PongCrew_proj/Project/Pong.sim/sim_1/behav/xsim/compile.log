@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/vivado_project/Pong/Pong.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/vivado_project/Pong/Pong.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/ai_paddle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ai_paddle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/buzzer_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/game_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/input_merger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_merger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/keypad_scanner.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keypad_scanner
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/led_status.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_status
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/ps2_keyboard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ps2_keyboard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/seg_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/vga_render.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_render
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/source_code/vgac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vgac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/Pong/sim/tb_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Top

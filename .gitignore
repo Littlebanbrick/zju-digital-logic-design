@@ -1,2 +1,11 @@
 *.jpg
 *.png
+
+**/*.xml
+**/*.wdf
+**/*.wpc
+
+**/*.cache
+**/*.hw
+**/*.ip_user_files
+**/*.xpr

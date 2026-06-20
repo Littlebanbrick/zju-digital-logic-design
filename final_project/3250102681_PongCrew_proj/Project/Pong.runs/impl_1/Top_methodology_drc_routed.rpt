@@ -1,0 +1,57 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jun 18 13:19:41 2026
+| Host         : Littlebanbrick running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Top_methodology_drc_routed.rpt -pb Top_methodology_drc_routed.pb -rpx Top_methodology_drc_routed.rpx
+| Design       : Top
+| Device       : xc7k160tffg676-2L
+| Speed File   : -2L
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 4
++-----------+------------------+------------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                      | Violations |
++-----------+------------------+------------------------------------------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                                      | 2          |
+| TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin                        | 1          |
+| CKLD-2    | Warning          | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 1          |
++-----------+------------------+------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin rst_s1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin rst_s2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-27#1 Critical Warning
+Invalid primary clock on hierarchical pin  
+A primary clock u_clk_wiz/u_clk_wiz_0/inst/clk_in1 is created on an inappropriate internal pin u_clk_wiz/u_clk_wiz_0/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+CKLD-2#1 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net clk_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): clk_IBUF_inst/O, rst_s1_reg/C, rst_s2_reg/C, u_clk_wiz/clk
+Related violations: <none>
+
+

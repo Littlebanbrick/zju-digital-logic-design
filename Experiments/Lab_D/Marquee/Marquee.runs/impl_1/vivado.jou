@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jun  5 12:50:19 2026
+# Process ID: 17152
+# Current directory: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/Marquee/Marquee.runs/impl_1
+# Command line: vivado.exe -log Marquee_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Marquee_top.tcl -notrace
+# Log file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/Marquee/Marquee.runs/impl_1/Marquee_top.vdi
+# Journal file: C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/Marquee/Marquee.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Marquee_top.tcl -notrace

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/ShiftReg8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftReg8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/ShiftReg8b/ShiftReg8b.srcs/sim_1/new/tb_ShiftReg8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ShiftReg8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/ShiftReg8b/ShiftReg8b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

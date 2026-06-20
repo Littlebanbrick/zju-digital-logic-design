@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Time=                6000: Q = 10110011
+After load: Q = 10110011
+Time=               16000: Q = 11011001
+Shift 1: Q = 11011001
+Time=               26000: Q = 01101100
+Shift 2: Q = 01101100
+Time=               36000: Q = 10110110
+Shift 3: Q = 10110110
+Time=               46000: Q = 00001111
+After reload: Q = 00001111
+Time=               56000: Q = 00000111
+Shift 4: Q = 00000111
+Time=               66000: Q = 00000011
+Shift 5: Q = 00000011
+$finish called at time : 70 ns : File "C:/Users/Littlebanbrick/Desktop/DLD/Experiments/Lab_D/ShiftReg8b/ShiftReg8b.srcs/sim_1/new/tb_ShiftReg8b.v" Line 64

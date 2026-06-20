@@ -1,0 +1,1519 @@
+$date
+   Thu May 28 11:59:11 2026
+$end
+$version
+  2020.2
+$end
+$timescale
+  1ps
+$end
+$scope module tb_Top $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_sw $end
+$var reg 4 # key_col_drv [3:0] $end
+$var wire 5 $ key_row [4:0] $end
+$var wire 4 % key_col [3:0] $end
+$var reg 16 & sw_reg [15:0] $end
+$var wire 16 ' SW [15:0] $end
+$var wire 8 ( ard_led [7:0] $end
+$var wire 4 ) AN [3:0] $end
+$var wire 8 * SEGMENT [7:0] $end
+$var wire 4 + vga_red [3:0] $end
+$var wire 4 , vga_green [3:0] $end
+$var wire 4 - vga_blue [3:0] $end
+$var wire 1 . vga_hs $end
+$var wire 1 / vga_vs $end
+$var wire 1 0 PS2_clk $end
+$var wire 1 1 PS2_data $end
+$var wire 1 2 buzzer $end
+$var integer 32 3 test_pass $end
+$var integer 32 4 test_fail $end
+$scope module uut $end
+$var wire 1 5 clk $end
+$var wire 1 6 rst_sw $end
+$var wire 5 $ key_row [4:0] $end
+$var wire 4 % key_col [3:0] $end
+$var wire 16 ' SW [15:0] $end
+$var wire 8 ( ard_led [7:0] $end
+$var wire 4 ) AN [3:0] $end
+$var wire 8 * SEGMENT [7:0] $end
+$var wire 4 + vga_red [3:0] $end
+$var wire 4 , vga_green [3:0] $end
+$var wire 4 - vga_blue [3:0] $end
+$var wire 1 . vga_hs $end
+$var wire 1 / vga_vs $end
+$var wire 1 0 PS2_clk $end
+$var wire 1 1 PS2_data $end
+$var wire 1 2 buzzer $end
+$var wire 1 7 clk_25m $end
+$var wire 1 8 pll_locked $end
+$var reg 1 9 rst_s1 $end
+$var reg 1 : rst_s2 $end
+$var wire 1 ; rst_n $end
+$var wire 1 < kp_left_up $end
+$var wire 1 = kp_left_down $end
+$var wire 1 > kp_right_up $end
+$var wire 1 ? kp_right_down $end
+$var wire 1 @ kp_start $end
+$var wire 1 A ps2_left_up $end
+$var wire 1 B ps2_left_down $end
+$var wire 1 C ps2_right_up $end
+$var wire 1 D ps2_right_down $end
+$var wire 1 E ps2_start $end
+$var wire 1 F left_up $end
+$var wire 1 G left_down $end
+$var wire 1 H right_up $end
+$var wire 1 I right_down $end
+$var wire 1 J start_pause $end
+$var wire 3 K game_state [2:0] $end
+$var wire 4 L score_left [3:0] $end
+$var wire 4 M score_right [3:0] $end
+$var wire 10 N ball_x [9:0] $end
+$var wire 10 O ball_y [9:0] $end
+$var wire 9 P paddle_left_y [8:0] $end
+$var wire 9 Q paddle_right_y [8:0] $end
+$var wire 1 R hit_paddle $end
+$var wire 1 S score_event $end
+$var wire 1 T game_over_event $end
+$var wire 9 U row_addr [8:0] $end
+$var wire 10 V col_addr [9:0] $end
+$var wire 1 W rdn $end
+$var wire 12 X vga_rgb [11:0] $end
+$scope module u_clk_wiz $end
+$var wire 1 5 clk_in1 $end
+$var wire 1 6 reset $end
+$var wire 1 7 clk_out1 $end
+$var wire 1 8 locked $end
+$scope module u_clk_wiz_0 $end
+$var wire 1 7 clk_out1 $end
+$var wire 1 6 reset $end
+$var wire 1 8 locked $end
+$var wire 1 5 clk_in1 $end
+$scope module inst $end
+$var wire 1 7 clk_out1 $end
+$var wire 1 6 reset $end
+$var wire 1 8 locked $end
+$var wire 1 5 clk_in1 $end
+$var wire 1 Y clk_in1_clk_wiz_0 $end
+$var wire 1 Z clk_in2_clk_wiz_0 $end
+$var wire 1 [ clk_out1_clk_wiz_0 $end
+$var wire 1 \ clk_out2_clk_wiz_0 $end
+$var wire 1 ] clk_out3_clk_wiz_0 $end
+$var wire 1 ^ clk_out4_clk_wiz_0 $end
+$var wire 1 _ clk_out5_clk_wiz_0 $end
+$var wire 1 ` clk_out6_clk_wiz_0 $end
+$var wire 1 a clk_out7_clk_wiz_0 $end
+$var wire 16 b do_unused [15:0] $end
+$var wire 1 c drdy_unused $end
+$var wire 1 d psdone_unused $end
+$var wire 1 e locked_int $end
+$var wire 1 f clkfbout_clk_wiz_0 $end
+$var wire 1 g clkfbout_buf_clk_wiz_0 $end
+$var wire 1 h clkfboutb_unused $end
+$var wire 1 i clkout0b_unused $end
+$var wire 1 j clkout1_unused $end
+$var wire 1 k clkout1b_unused $end
+$var wire 1 l clkout2_unused $end
+$var wire 1 m clkout2b_unused $end
+$var wire 1 n clkout3_unused $end
+$var wire 1 o clkout3b_unused $end
+$var wire 1 p clkout4_unused $end
+$var wire 1 q clkout5_unused $end
+$var wire 1 r clkout6_unused $end
+$var wire 1 s clkfbstopped_unused $end
+$var wire 1 t clkinstopped_unused $end
+$var wire 1 u reset_high $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module u_keypad $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var reg 5 v key_row [4:0] $end
+$var wire 4 % key_col [3:0] $end
+$var reg 1 w left_up $end
+$var reg 1 x left_down $end
+$var reg 1 y right_up $end
+$var reg 1 z right_down $end
+$var reg 1 { start_pause $end
+$var reg 13 | scan_cnt [12:0] $end
+$var wire 1 } scan_tick $end
+$var reg 3 ~ current_row [2:0] $end
+$var reg 4 !! col_sync [3:0] $end
+$var reg 3 "! db_cnt_left_up [2:0] $end
+$var reg 3 #! db_cnt_left_down [2:0] $end
+$var reg 3 $! db_cnt_right_up [2:0] $end
+$var reg 3 %! db_cnt_right_down [2:0] $end
+$var reg 3 &! db_cnt_start [2:0] $end
+$var reg 1 '! kp_left_up $end
+$var reg 1 (! kp_left_down $end
+$var reg 1 )! kp_right_up $end
+$var reg 1 *! kp_right_down $end
+$var reg 1 +! kp_start $end
+$var parameter 3 ,! ROW_LEFT [2:0] $end
+$var parameter 3 -! ROW_RIGHT [2:0] $end
+$var parameter 3 .! ROW_START [2:0] $end
+$var parameter 32 /! SCAN_DELAY [31:0] $end
+$var parameter 32 0! DEBOUNCE_CNT [31:0] $end
+$upscope $end
+$scope module u_ps2 $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 1 0 PS2_clk $end
+$var wire 1 1 PS2_data $end
+$var reg 1 1! left_up $end
+$var reg 1 2! left_down $end
+$var reg 1 3! right_up $end
+$var reg 1 4! right_down $end
+$var reg 1 5! start_pause $end
+$var reg 1 6! ps2_clk_s0 $end
+$var reg 1 7! ps2_clk_s1 $end
+$var reg 1 8! ps2_clk_s2 $end
+$var wire 1 9! neg_edge_ps2_clk $end
+$var reg 1 :! ps2_data_s $end
+$var reg 4 ;! bit_cnt [3:0] $end
+$var reg 8 <! shift_reg [7:0] $end
+$var reg 1 =! frame_done $end
+$var reg 1 >! is_extended $end
+$var reg 1 ?! is_break $end
+$var reg 1 @! is_break_latched $end
+$var reg 8 A! key_make_code [7:0] $end
+$var reg 1 B! key_valid $end
+$upscope $end
+$scope module u_input_merger $end
+$var wire 1 < kp_left_up $end
+$var wire 1 = kp_left_down $end
+$var wire 1 > kp_right_up $end
+$var wire 1 ? kp_right_down $end
+$var wire 1 @ kp_start $end
+$var wire 1 A ps2_left_up $end
+$var wire 1 B ps2_left_down $end
+$var wire 1 C ps2_right_up $end
+$var wire 1 D ps2_right_down $end
+$var wire 1 E ps2_start $end
+$var wire 1 F left_up $end
+$var wire 1 G left_down $end
+$var wire 1 H right_up $end
+$var wire 1 I right_down $end
+$var wire 1 J start_pause $end
+$upscope $end
+$scope module u_game_logic $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 1 F left_up $end
+$var wire 1 G left_down $end
+$var wire 1 H right_up $end
+$var wire 1 I right_down $end
+$var wire 1 J start_pause $end
+$var wire 1 C! ai_enable $end
+$var reg 3 D! game_state [2:0] $end
+$var reg 4 E! score_left [3:0] $end
+$var reg 4 F! score_right [3:0] $end
+$var reg 10 G! ball_x [9:0] $end
+$var reg 10 H! ball_y [9:0] $end
+$var reg 9 I! paddle_left_y [8:0] $end
+$var reg 9 J! paddle_right_y [8:0] $end
+$var reg 1 K! hit_paddle $end
+$var reg 1 L! score_event $end
+$var reg 1 M! game_over_event $end
+$var reg 19 N! tick_counter [18:0] $end
+$var wire 1 O! game_tick $end
+$var wire 1 P! ai_right_up $end
+$var wire 1 Q! ai_right_down $end
+$var wire 1 R! right_up_sel $end
+$var wire 1 S! right_down_sel $end
+$var reg 3 T! next_state [2:0] $end
+$var reg 4 U! next_score_left [3:0] $end
+$var reg 4 V! next_score_right [3:0] $end
+$var reg 10 W! next_ball_x [9:0] $end
+$var reg 10 X! next_ball_y [9:0] $end
+$var reg 9 Y! next_paddle_left_y [8:0] $end
+$var reg 9 Z! next_paddle_right_y [8:0] $end
+$var reg 1 [! serve_side $end
+$var reg 10 \! ball_dx [9:0] $end
+$var reg 10 ]! ball_dy [9:0] $end
+$var reg 20 ^! score_timer [19:0] $end
+$var parameter 3 _! S_IDLE [2:0] $end
+$var parameter 3 `! S_SERVE [2:0] $end
+$var parameter 3 a! S_PLAY [2:0] $end
+$var parameter 3 b! S_PAUSE [2:0] $end
+$var parameter 3 c! S_SCORE [2:0] $end
+$var parameter 3 d! S_OVER [2:0] $end
+$scope module u_ai $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 10 H! ball_y [9:0] $end
+$var wire 9 J! paddle_y [8:0] $end
+$var reg 1 e! move_up $end
+$var reg 1 f! move_down $end
+$var wire 10 g! ball_center_y [9:0] $end
+$var wire 10 h! paddle_center_y [9:0] $end
+$upscope $end
+$upscope $end
+$scope module u_vgac $end
+$var wire 12 X d_in [11:0] $end
+$var wire 1 7 vga_clk $end
+$var wire 1 ; clrn $end
+$var reg 9 i! row_addr [8:0] $end
+$var reg 10 j! col_addr [9:0] $end
+$var reg 4 k! r [3:0] $end
+$var reg 4 l! g [3:0] $end
+$var reg 4 m! b [3:0] $end
+$var reg 1 n! rdn $end
+$var reg 1 o! hs $end
+$var reg 1 p! vs $end
+$var reg 10 q! h_count [9:0] $end
+$var reg 10 r! v_count [9:0] $end
+$var wire 10 s! row [9:0] $end
+$var wire 10 t! col [9:0] $end
+$var wire 1 u! h_sync $end
+$var wire 1 v! v_sync $end
+$var wire 1 w! read $end
+$upscope $end
+$scope module u_vga_render $end
+$var wire 1 7 clk $end
+$var wire 1 W rdn $end
+$var wire 9 U row_addr [8:0] $end
+$var wire 10 V col_addr [9:0] $end
+$var wire 10 N ball_x [9:0] $end
+$var wire 10 O ball_y [9:0] $end
+$var wire 9 P paddle_left_y [8:0] $end
+$var wire 9 Q paddle_right_y [8:0] $end
+$var wire 4 L score_left [3:0] $end
+$var wire 4 M score_right [3:0] $end
+$var wire 3 K game_state [2:0] $end
+$var reg 12 x! rgb_out [11:0] $end
+$var wire 10 y! row [9:0] $end
+$var wire 10 z! col [9:0] $end
+$var reg 4 {! selected_digit [3:0] $end
+$var reg 10 |! digit_x_base [9:0] $end
+$var reg 10 }! digit_y_base [9:0] $end
+$var wire 1 ~! digit_pixel_on $end
+$var wire 4 !" row_in_digit [3:0] $end
+$var wire 3 "" col_in_digit [2:0] $end
+$var wire 3 #" letter_index [2:0] $end
+$var wire 4 $" row_in_char [3:0] $end
+$var wire 3 %" col_in_char [2:0] $end
+$var reg 8 &" letter_row [7:0] $end
+$var wire 1 '" inside_gameover $end
+$var wire 1 (" gameover_pixel_on $end
+$var parameter 3 )" S_OVER [2:0] $end
+$var parameter 12 *" COLOR_BLACK [11:0] $end
+$var parameter 12 +" COLOR_WHITE [11:0] $end
+$var parameter 12 ," COLOR_GRAY [11:0] $end
+$var parameter 32 -" GAMEOVER_X [31:0] $end
+$var parameter 32 ." GAMEOVER_Y [31:0] $end
+$var parameter 32 /" GAMEOVER_W [31:0] $end
+$upscope $end
+$scope module u_seg $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 4 L score_left [3:0] $end
+$var wire 4 M score_right [3:0] $end
+$var reg 4 0" AN [3:0] $end
+$var reg 8 1" SEGMENT [7:0] $end
+$var reg 13 2" scan_counter [12:0] $end
+$var wire 1 3" scan_tick $end
+$var reg 2 4" digit_sel [1:0] $end
+$var parameter 8 5" SEG_0 [7:0] $end
+$var parameter 8 6" SEG_1 [7:0] $end
+$var parameter 8 7" SEG_2 [7:0] $end
+$var parameter 8 8" SEG_3 [7:0] $end
+$var parameter 8 9" SEG_4 [7:0] $end
+$var parameter 8 :" SEG_5 [7:0] $end
+$var parameter 8 ;" SEG_6 [7:0] $end
+$var parameter 8 <" SEG_7 [7:0] $end
+$var parameter 8 =" SEG_8 [7:0] $end
+$var parameter 8 >" SEG_9 [7:0] $end
+$var parameter 8 ?" SEG_OFF [7:0] $end
+$scope function digit_to_seg $end
+$var reg 8 @" digit_to_seg [7:0] $end
+$var reg 4 A" digit [3:0] $end
+$upscope $end
+$upscope $end
+$scope module u_led $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 3 K game_state [2:0] $end
+$var wire 4 L score_left [3:0] $end
+$var wire 4 M score_right [3:0] $end
+$var wire 1 B" serve_side $end
+$var reg 8 C" led [7:0] $end
+$var reg 24 D" blink_cnt [23:0] $end
+$var wire 1 E" blink_tick $end
+$var reg 1 F" blink_phase $end
+$var parameter 3 G" S_IDLE [2:0] $end
+$var parameter 3 H" S_SERVE [2:0] $end
+$var parameter 3 I" S_PLAY [2:0] $end
+$var parameter 3 J" S_PAUSE [2:0] $end
+$var parameter 3 K" S_SCORE [2:0] $end
+$var parameter 3 L" S_OVER [2:0] $end
+$var parameter 24 M" BLINK_MAX [23:0] $end
+$upscope $end
+$scope module u_buzzer $end
+$var wire 1 7 clk $end
+$var wire 1 ; rst_n $end
+$var wire 1 R hit_paddle $end
+$var wire 1 S score_event $end
+$var wire 1 T game_over_event $end
+$var reg 1 N" buzzer $end
+$var reg 23 O" timer [22:0] $end
+$var reg 1 P" sound_active $end
+$var reg 14 Q" half_period_cnt [13:0] $end
+$var reg 1 R" note_phase $end
+$var reg 14 S" current_half [13:0] $end
+$var reg 1 T" hit_paddle_d1 $end
+$var reg 1 U" score_event_d1 $end
+$var reg 1 V" game_over_event_d1 $end
+$var wire 1 W" hit_paddle_rise $end
+$var wire 1 X" score_event_rise $end
+$var wire 1 Y" game_over_event_rise $end
+$var wire 1 Z" any_event $end
+$var parameter 32 [" HIT_HALF [31:0] $end
+$var parameter 32 \" SCORE_HALF [31:0] $end
+$var parameter 32 ]" OVER_HALF [31:0] $end
+$var parameter 32 ^" TIMER_MAX [31:0] $end
+$upscope $end
+$upscope $end
+$scope task press_keypad $end
+$var reg 3 _" row [2:0] $end
+$var reg 4 `" col_bit [3:0] $end
+$upscope $end
+$scope task wait_ms $end
+$var integer 32 a" ms $end
+$upscope $end
+$scope task check $end
+$var reg 1 b" condition $end
+$var reg 256 c" name [255:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+bx !!
+bx !"
+1"
+b0 "!
+bx ""
+b1111 #
+b0 #!
+bx #"
+b11111 $
+b0 $!
+bx $"
+b1111 %
+b0 %!
+bx %"
+b0 &
+b0 &!
+bx &"
+b0 '
+0'!
+0'"
+b1 (
+0(!
+0("
+b1111 )
+0)!
+b101 )"
+b11111111 *
+0*!
+b0 *"
+bx +
+0+!
+b111111111111 +"
+bx ,
+b0 ,!
+b100010001000 ,"
+bx -
+b1 -!
+b100011100 -"
+x.
+b10 .!
+b11101000 ."
+x/
+b1001110101011 /!
+b1001000 /"
+10
+b1000 0!
+b1111 0"
+11
+01!
+b11111111 1"
+02
+02!
+b0 2"
+b0 3
+03!
+03"
+b0 4
+04!
+b0 4"
+05
+05!
+b11000000 5"
+16
+16!
+b11111001 6"
+07
+17!
+b10100100 7"
+x8
+18!
+b10110000 8"
+x9
+09!
+b10011001 9"
+x:
+x:!
+b10010010 :"
+0;
+b0 ;!
+b10000010 ;"
+0<
+b0 <!
+b11111000 <"
+0=
+0=!
+b10000000 ="
+0>
+0>!
+b10010000 >"
+0?
+0?!
+b11111111 ?"
+0@
+0@!
+bx @"
+0A
+b0 A!
+bx A"
+0B
+0B!
+0B"
+0C
+0C!
+b1 C"
+0D
+b0 D!
+b0 D"
+0E
+b0 E!
+0E"
+0F
+b0 F!
+0F"
+0G
+b100111100 G!
+b0 G"
+0H
+b11101100 H!
+b1 H"
+0I
+b11001000 I!
+b10 I"
+0J
+b11001000 J!
+b11 J"
+b0 K
+0K!
+b100 K"
+b0 L
+0L!
+b101 L"
+b0 M
+0M!
+b101111101011110000100000 M"
+b100111100 N
+b0 N!
+0N"
+b11101100 O
+0O!
+b0 O"
+b11001000 P
+0P!
+0P"
+b11001000 Q
+0Q!
+b0 Q"
+0R
+0R!
+0R"
+0S
+0S!
+b11000100101011 S"
+0T
+bx T!
+0T"
+bx U
+bx U!
+0U"
+bx V
+bx V!
+0V"
+xW
+bx W!
+0W"
+b0 X
+bx X!
+0X"
+0Y
+bx Y!
+0Y"
+zZ
+bx Z!
+0Z"
+0[
+0[!
+b11000100101011 ["
+z\
+b1 \!
+b10000011000111 \"
+z]
+b1 ]!
+b1100010010101 ]"
+z^
+b0 ^!
+b10011001101001111111000 ^"
+z_
+b0 _!
+bx _"
+z`
+b1 `!
+bx `"
+za
+b10 a!
+bx a"
+bx b
+b11 b!
+xb"
+xc
+b100 c!
+bx c"
+xd
+b101 d!
+xe
+0e!
+0f
+0f!
+0g
+b11110000 g!
+1h
+b11110000 h!
+1i
+bx i!
+0j
+bx j!
+1k
+bx k!
+0l
+bx l!
+1m
+bx m!
+0n
+xn!
+1o
+xo!
+0p
+xp!
+0q
+b0 q!
+0r
+b0 r!
+0s
+b1111011101 s!
+0t
+b1101110000 t!
+1u
+0u!
+b11111 v
+0v!
+0w
+0w!
+0x
+b0 x!
+0y
+b0xxxxxxxxx y!
+0z
+bx z!
+0{
+b0 {!
+b0 |
+b0 |!
+0}
+b0 }!
+b0 ~
+x~!
+$end
+#100
+08
+bx b
+0c
+0d
+0e
+#5000
+1!
+b1111 !!
+b1101 !"
+b0 ""
+b10 #"
+b101 $"
+b100 %"
+b11000110 &"
+0'"
+0("
+b0 +
+b0 ,
+b0 -
+0.
+0/
+15
+17
+19
+1:!
+b111011101 U
+b1101110000 V
+1W
+1Y
+1[
+1f
+1g
+0h
+0i
+b111011101 i!
+1j
+b1101110000 j!
+0k
+b0 k!
+1l
+b0 l!
+0m
+b0 m!
+1n
+1n!
+0o
+0o!
+1p
+0p!
+1q
+1r
+b0 x!
+b111011101 y!
+b1101110000 z!
+b0 {!
+b0 |!
+b0 }!
+0~!
+#10000
+0!
+05
+0Y
+#15000
+1!
+15
+07
+1Y
+0[
+0f
+0g
+1h
+1i
+0j
+1k
+0l
+1m
+0n
+1o
+0p
+0q
+0r
+#20000
+0!
+05
+0Y
+#25000
+1!
+15
+1Y
+#30000
+0!
+05
+0Y
+#35000
+1!
+15
+1Y
+#40000
+0!
+05
+0Y
+#45000
+1!
+15
+1Y
+#50000
+0!
+05
+0Y
+#55000
+1!
+15
+1Y
+#60000
+0!
+05
+0Y
+#65000
+1!
+15
+1Y
+#70000
+0!
+05
+0Y
+#75000
+1!
+15
+1Y
+#80000
+0!
+05
+0Y
+#85000
+1!
+15
+1Y
+#90000
+0!
+05
+0Y
+#95000
+1!
+15
+1Y
+#100000
+0!
+05
+0Y
+#105000
+1!
+15
+1Y
+#110000
+0!
+05
+0Y
+#115000
+1!
+15
+1Y
+#120000
+0!
+05
+0Y
+#125000
+1!
+15
+1Y
+#130000
+0!
+05
+0Y
+#135000
+1!
+15
+1Y
+#140000
+0!
+05
+0Y
+#145000
+1!
+15
+1Y
+#150000
+0!
+05
+0Y
+#155000
+1!
+15
+1Y
+#160000
+0!
+05
+0Y
+#165000
+1!
+15
+1Y
+#170000
+0!
+05
+0Y
+#175000
+1!
+15
+1Y
+#180000
+0!
+05
+0Y
+#185000
+1!
+15
+1Y
+#190000
+0!
+05
+0Y
+#195000
+1!
+15
+1Y
+#200000
+0!
+05
+0Y
+b1 a"
+#205000
+1!
+15
+1Y
+#210000
+0!
+05
+0Y
+#215000
+1!
+15
+1Y
+#220000
+0!
+05
+0Y
+#225000
+1!
+15
+1Y
+#230000
+0!
+05
+0Y
+#235000
+1!
+15
+1Y
+#240000
+0!
+05
+0Y
+#245000
+1!
+15
+1Y
+#250000
+0!
+05
+0Y
+#255000
+1!
+15
+1Y
+#260000
+0!
+05
+0Y
+#265000
+1!
+15
+1Y
+#270000
+0!
+05
+0Y
+#275000
+1!
+15
+1Y
+#280000
+0!
+05
+0Y
+#285000
+1!
+15
+1Y
+#290000
+0!
+05
+0Y
+#295000
+1!
+15
+1Y
+#300000
+0!
+05
+0Y
+#305000
+1!
+15
+1Y
+#310000
+0!
+05
+0Y
+#315000
+1!
+15
+1Y
+#320000
+0!
+05
+0Y
+#325000
+1!
+15
+1Y
+#330000
+0!
+05
+0Y
+#335000
+1!
+15
+1Y
+#340000
+0!
+05
+0Y
+#345000
+1!
+15
+1Y
+#350000
+0!
+05
+0Y
+#355000
+1!
+15
+1Y
+#360000
+0!
+05
+0Y
+#365000
+1!
+15
+1Y
+#370000
+0!
+05
+0Y
+#375000
+1!
+15
+1Y
+#380000
+0!
+05
+0Y
+#385000
+1!
+15
+1Y
+#390000
+0!
+05
+0Y
+#395000
+1!
+15
+1Y
+#400000
+0!
+05
+0Y
+#405000
+1!
+15
+1Y
+#410000
+0!
+05
+0Y
+#415000
+1!
+15
+1Y
+#420000
+0!
+05
+0Y
+#425000
+1!
+15
+1Y
+#430000
+0!
+05
+0Y
+#435000
+1!
+15
+1Y
+#440000
+0!
+05
+0Y
+#445000
+1!
+15
+1Y
+#450000
+0!
+05
+0Y
+#455000
+1!
+15
+1Y
+#460000
+0!
+05
+0Y
+#465000
+1!
+15
+1Y
+#470000
+0!
+05
+0Y
+#475000
+1!
+15
+1Y
+#480000
+0!
+05
+0Y
+#485000
+1!
+15
+1Y
+#490000
+0!
+05
+0Y
+#495000
+1!
+15
+1Y
+#500000
+0!
+05
+0Y
+#505000
+1!
+15
+1Y
+#510000
+0!
+05
+0Y
+#515000
+1!
+15
+1Y
+#520000
+0!
+05
+0Y
+#525000
+1!
+15
+1Y
+#530000
+0!
+05
+0Y
+#535000
+1!
+15
+1Y
+#540000
+0!
+05
+0Y
+#545000
+1!
+15
+1Y
+#550000
+0!
+05
+0Y
+#555000
+1!
+15
+1Y
+#560000
+0!
+05
+0Y
+#565000
+1!
+15
+1Y
+#570000
+0!
+05
+0Y
+#575000
+1!
+15
+1Y
+#580000
+0!
+05
+0Y
+#585000
+1!
+15
+1Y
+#590000
+0!
+05
+0Y
+#595000
+1!
+15
+1Y
+#600000
+0!
+05
+0Y
+#605000
+1!
+15
+1Y
+#610000
+0!
+05
+0Y
+#615000
+1!
+15
+1Y
+#620000
+0!
+05
+0Y
+#625000
+1!
+15
+1Y
+#630000
+0!
+05
+0Y
+#635000
+1!
+15
+1Y
+#640000
+0!
+05
+0Y
+#645000
+1!
+15
+1Y
+#650000
+0!
+05
+0Y
+#655000
+1!
+15
+1Y
+#660000
+0!
+05
+0Y
+#665000
+1!
+15
+1Y
+#670000
+0!
+05
+0Y
+#675000
+1!
+15
+1Y
+#680000
+0!
+05
+0Y
+#685000
+1!
+15
+1Y
+#690000
+0!
+05
+0Y
+#695000
+1!
+15
+1Y
+#700000
+0!
+05
+0Y
+#705000
+1!
+15
+1Y
+#710000
+0!
+05
+0Y
+#715000
+1!
+15
+1Y
+#720000
+0!
+05
+0Y
+#725000
+1!
+15
+1Y
+#730000
+0!
+05
+0Y
+#735000
+1!
+15
+1Y
+#740000
+0!
+05
+0Y
+#745000
+1!
+15
+1Y
+#750000
+0!
+05
+0Y
+#755000
+1!
+15
+1Y
+#760000
+0!
+05
+0Y
+#765000
+1!
+15
+1Y
+#770000
+0!
+05
+0Y
+#775000
+1!
+15
+1Y
+#780000
+0!
+05
+0Y
+#785000
+1!
+15
+1Y
+#790000
+0!
+05
+0Y
+#795000
+1!
+15
+1Y
+#800000
+0!
+05
+0Y
+#805000
+1!
+15
+1Y
+#810000
+0!
+05
+0Y
+#815000
+1!
+15
+1Y
+#820000
+0!
+05
+0Y
+#825000
+1!
+15
+1Y
+#830000
+0!
+05
+0Y
+#835000
+1!
+15
+1Y
+#840000
+0!
+05
+0Y
+#845000
+1!
+15
+1Y
+#850000
+0!
+05
+0Y
+#855000
+1!
+15
+1Y
+#860000
+0!
+05
+0Y
+#865000
+1!
+15
+1Y
+#870000
+0!
+05
+0Y
+#875000
+1!
+15
+1Y
+#880000
+0!
+05
+0Y
+#885000
+1!
+15
+1Y
+#890000
+0!
+05
+0Y
+#895000
+1!
+15
+1Y
+#900000
+0!
+05
+0Y
+#905000
+1!
+15
+1Y
+#910000
+0!
+05
+0Y
+#915000
+1!
+15
+1Y
+#920000
+0!
+05
+0Y
+#925000
+1!
+15
+1Y
+#930000
+0!
+05
+0Y
+#935000
+1!
+15
+1Y
+#940000
+0!
+05
+0Y
+#945000
+1!
+15
+1Y
+#950000
+0!
+05
+0Y
+#955000
+1!
+15
+1Y
+#960000
+0!
+05
+0Y
+#965000
+1!
+15
+1Y
+#970000
+0!
+05
+0Y
+#975000
+1!
+15
+1Y
+#980000
+0!
+05
+0Y
+#985000
+1!
+15
+1Y
+#990000
+0!
+05
+0Y
+#995000
+1!
+15
+1Y
+#1000000
+0!
+05
+0Y
