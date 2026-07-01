@@ -1,6 +1,8 @@
 *.jpg
 *.png
 
+*.mp4
+
 **/*.xml
 **/*.wdf
 **/*.wpc
